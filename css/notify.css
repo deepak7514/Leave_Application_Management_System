@@ -1,0 +1,41 @@
+.imgwrap{
+	position:relative;
+	height:300px;
+	width:300px;
+}
+
+.imgdesc{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:rgba(29,106,154,0.72);
+	color:#fff;
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition:visibility opacity 0.2s;
+}
+
+.imgwrap:hover .imgdesc{
+visibility:visible;
+opacity:1;
+}
+
+#gallery
+{
+    background-color: #333333;
+}
+.image-wrap
+{
+    float: left;
+    margin: 4px;
+    padding: 4px;
+    background-color: #999999;
+}
+.image
+{
+    width: 300px;
+    height: 300px;
+}
+
